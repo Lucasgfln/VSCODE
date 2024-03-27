@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Questão_1{
+public class Questão_1_l2{
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
         float i, IdP;
