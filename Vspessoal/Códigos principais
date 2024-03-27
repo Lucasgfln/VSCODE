@@ -1,0 +1,9 @@
+import pyautogui as pg
+import pandas as pd
+import pyperclip as pc
+import time as tm
+import plotly.express as px
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+navegador = webdriver.Chrome()
