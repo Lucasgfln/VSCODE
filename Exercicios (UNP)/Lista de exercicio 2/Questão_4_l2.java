@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Questão_4_l2 {
-    public void main(String[] args){
+    public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
         float id = 0, pe = 0, s_id = 0, med_id = 0, p90 = 0, i = 1;
         while (i<=7) {
