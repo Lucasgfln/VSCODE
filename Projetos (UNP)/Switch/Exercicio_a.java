@@ -1,4 +1,3 @@
-package Switch;
 import java.util.Scanner;
 public class Exercicio_a {
     public static void main(String[] args){
