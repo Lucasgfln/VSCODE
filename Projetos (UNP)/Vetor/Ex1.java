@@ -9,7 +9,7 @@ public class Ex1 {
         frutas[4] = "pera";
         frutas[5] = "maçã";
         for (int i = 0; i < 6 ; i++){
-            System.out.println(i);
+            System.out.println(frutas[i]);
         }
     }
     
