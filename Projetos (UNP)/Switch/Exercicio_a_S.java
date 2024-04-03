@@ -2,34 +2,40 @@ import java.util.Scanner;
 public class Exercicio_a_S {
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
-        int n;
+        int n, d = 0;
         System.out.print("Digite um número de 1 a 7, referente aos dias da semana: ");
         n = ler.nextInt();
-        switch (n){
+        while (d==0) {
+            d=1;
+         switch (n){
             case 2:
-            System.out.print("Segunda-Feira");
+            System.out.println("Segunda-Feira");
             break;
             case 3:
-            System.out.print("Terça-Feira");
+            System.out.println("Terça-Feira");
             break;
             case 4:
-            System.out.print("Quarta-Feira");
+            System.out.println("Quarta-Feira");
             break;
             case 5:
-            System.out.print("Quinta-Feira");
+            System.out.println("Quinta-Feira");
             break;
             case 6:
-            System.out.print("Sexta-Feira");
+            System.out.println("Sexta-Feira");
             break;
             case 7:
-            System.out.print("Sábado");
+            System.out.println("Sábado");
             break;
             case 1:
-            System.out.print("Domingo");
+            System.out.println("Domingo");
             break;
             default:
-            System.out.print("Número inválido, escolha um número entre 1-7.");
-        }
-        ler.close();
+            System.out.println("Número inválido, escolha um número entre 1-7.");
+            System.out.print("Digite um número de 1 a 7, referente aos dias da semana: ");
+            n = ler.nextInt();
+            d = 0;
+                }    
+            }
+            ler.close();
+        }   
     }
-}
