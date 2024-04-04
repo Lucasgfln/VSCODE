@@ -4,8 +4,10 @@ public class Questão_5_l2 {
         Scanner ler = new Scanner(System.in);
         int i = -1;
         float a, b, c;
-        while (i < 0) {
-            System.out.print("Digite um Número inteiro e positivo entre 1, 2 e 3: ");
+        System.out.print("Digite um Número inteiro e positivo entre 1, 2 e 3: ");
+        i = ler.nextInt();
+        while (i < 0 | i > 3) {
+            System.out.print("Número inválido, digite um Número inteiro e positivo entre 1, 2 e 3: ");
             i = ler.nextInt();
         }
         System.out.print("Digite A: ");
@@ -43,5 +45,6 @@ public class Questão_5_l2 {
             default:
                 break;
         }
+        ler.close();
     }
 }
