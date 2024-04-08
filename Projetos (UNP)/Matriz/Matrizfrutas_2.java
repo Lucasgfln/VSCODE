@@ -17,13 +17,17 @@ public class Matrizfrutas_2 {
                 
             }
         }
-        int d = 1, for;
+        int d = 1, q;
         String f;
         while (d!=0) {
             System.out.print("Digite qual fruta você deseja saber a linha e a coluna: ");
             f = ler.nextLine();
             String frutasd = "";
-            
+            for( i = 0; i < 2; i++){
+                for( j = 0; j < 3; j++){
+                    
+                }
+            }
             }
             
         }
