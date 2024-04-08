@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Matrizatvd1 {
+public class Matrizatvd2 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         String [] aluno = new String[5];

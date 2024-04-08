@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class uawhd {
+public class MatrizAtvd3_teste {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int a1, a2, a3, temp;
@@ -16,8 +16,12 @@ public class uawhd {
             a2 = a3;
             a3 = temp;
         }
+        if(a1>a2){
+            temp = a1;
+            a1 = a2;
+            a2 = temp;
+        }
         
-        
-        System.out.println();
+        System.out.println(a1 + ", " + a2 + ", " + a3 + ".");
     }
 }

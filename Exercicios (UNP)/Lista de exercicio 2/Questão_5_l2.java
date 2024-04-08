@@ -28,7 +28,11 @@ public class Questão_5_l2 {
                 b = c;
                 c = temp;
             }
-            
+            if (a>b){
+                float temp = a;
+                a = b;
+                b = temp;
+            }
             System.out.print("Os números em ordem crescente são: "+ a + ", " + b + ", " + c);
                 break;
             case 2:
