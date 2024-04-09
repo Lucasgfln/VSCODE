@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MatrizAtvd3 {
+public class MatrizAtvd3_gpt {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in); 
          int [] [] matriz = new int[4][4];
