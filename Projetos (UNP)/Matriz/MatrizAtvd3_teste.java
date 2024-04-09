@@ -21,7 +21,7 @@ public class MatrizAtvd3_teste {
             a1 = a2;
             a2 = temp;
         }
-        
+        ler.close();
         System.out.println(a1 + ", " + a2 + ", " + a3 + ".");
     }
 }
