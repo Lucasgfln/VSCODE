@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class Questão_1_l2{
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
-        float i, IdP;
+        float finalizar, IdP;
         String grupo;
-        i = 0;
-        while (i!=2) {
+        finalizar = 0;
+        while (finalizar!=2) {
             System.out.print("Digite o valor do índice de poluição: ");
             IdP = ler.nextFloat();
             if (IdP>=0.5){
@@ -26,7 +26,7 @@ public class Questão_1_l2{
                 System.out.println("Índice de poluição Aceitável.");
             }
             System.out.print("Se você deseja repetir o código digite 1, caso contrário digite 2: ");
-            i = ler.nextFloat();
+            finalizar = ler.nextFloat();
         }
         System.out.print("Concluído. Até a uma próxima.");
         ler.close();
