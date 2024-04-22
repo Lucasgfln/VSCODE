@@ -9,6 +9,7 @@ public class Questão_3_l3 {
         for (i=0; i<v.length; i++){
             System.out.print("Digite um número: ");
             v[i] = ler.nextInt();
+            ler.close();
         }
         for (i=0; i<v.length - 1; i++){
             if(v[i]>(v[i+1])){
@@ -17,6 +18,7 @@ public class Questão_3_l3 {
                 (v[i+1]) = temp;
             }
         }
+        
         System.out.println(v[d-1]);
     }
 }
