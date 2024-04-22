@@ -1,12 +1,13 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "Função-Métodos/Java.Io/WriterFile",
         "Função-Métodos/Java.Io/Creatfile",
         "Função-Métodos/Java.Io/Atvd_1_file",
         "Exercicios (UNP)/Lista de exercicio 3",
         "Exercicios (UNP)/Lista de exercicio 2",
         "Exercicios (UNP)/Lista de exercicio 1",
         "Exercicios (UNP)/Glauber",
-        "Função-Métodos/Java.Io/WriterFile"
+        "Função-Métodos/Java.Io/ReaderFile_Buffer"
     ]
 }
