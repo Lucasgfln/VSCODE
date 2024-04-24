@@ -1,4 +1,5 @@
-public class teste {
+package Vspessoal;
+public class Teste {
     public static void main(String[] args){
         int a = 1;
         int b = 2;
@@ -8,5 +9,4 @@ public class teste {
         System.out.println("B");
     }
     
-
-    }
+}

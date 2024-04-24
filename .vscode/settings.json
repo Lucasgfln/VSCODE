@@ -1,6 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "Testes (UNP)",
+        "Projeto",
         "Função-Métodos/Java.Io/WriterFile",
         "Função-Métodos/Java.Io/ReaderFile_Buffer",
         "Função-Métodos/Java.Io/Creatfile",
@@ -9,6 +11,6 @@
         "Exercicios (UNP)/Lista de exercicio 2",
         "Exercicios (UNP)/Lista de exercicio 1",
         "Exercicios (UNP)/Glauber",
-        "Projeto"
+        ""
     ]
 }
