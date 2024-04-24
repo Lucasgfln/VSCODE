@@ -4,9 +4,18 @@ public class Números_Binários {
         Scanner ler = new Scanner(System.in);
         int i;
         int[] num = new int[10];
-        for (i = 0; i < num.length; i++){
+        for (i = 0; i < num.length; i++) {
                 System.out.print("Digite um número: ");
-                num = ler.nextInt();
+                num[i] = ler.nextInt();
+        }
+        for (i = 0; i < num.length; i++) {
+                System.out.println(num[i]);
+                i = i+1;
+        }
+        for (i = 0; i < num.length; i++) {
+                i = i+1;
+                System.out.println(num[i]);
+                
         }
     }
 }

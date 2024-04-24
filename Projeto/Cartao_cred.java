@@ -4,7 +4,7 @@ public class Cartao_cred {
         Scanner ler = new Scanner(System.in);
         String num_cartao_string;
         int [] numero_cartao_int = new int[16];
-        int soma, i=1;
+        int i=1;
         do {
             System.out.print("Digite os dígitos do seu cartão (16 dígitos): ");
             num_cartao_string = ler.nextLine();
@@ -45,8 +45,28 @@ public class Cartao_cred {
             System.out.println("Outra bandeira");
                 break;
         }
+        int soma_num_cartao_multiplicado = 0;
         for (i = 0; i < numero_cartao_int.length; i++){
-            
+            int num_cartao_multiplicado_base = numero_cartao_int[i] * 2;
+            if (num_cartao_multiplicado_base > 9){
+                String num_cartao_multiplicado_string = "" + num_cartao_multiplicado_base;
+                int [] num_cartao_multiplicado_vetor = new int[2];
+                for (int j = 0; j < num_cartao_multiplicado_vetor.length; j++){
+                    num_cartao_multiplicado_vetor[j] = num_cartao_multiplicado_string.charAt(j) - 48;
+                    soma_num_cartao_multiplicado = soma_num_cartao_multiplicado + num_cartao_multiplicado_vetor[j];         
+                }
+            }
+            else {
+                soma_num_cartao_multiplicado = soma_num_cartao_multiplicado + num_cartao_multiplicado_base;
+            }
+            i = i + 1;
+
         }
+        for (i = 0; i < 16; i++){
+            i = i + 1;
+            soma_num_cartao_multiplicado = soma_num_cartao_multiplicado + numero_cartao_int[i];   
+
+        }
+        System.out.println(soma_num_cartao_multiplicado);
     }
 }
