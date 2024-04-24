@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Cadastro_Veiculo {
+public class Cadastro_veiculo {
     public static void main(String[] args) {
     System.out.println("Bem Vindo!!");
     /*

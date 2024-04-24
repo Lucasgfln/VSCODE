@@ -1,7 +1,7 @@
 public class Transportes {
     String Cor, Marca, Modelo;
-    Float Valor;
-    Int Ano;
+    float Valor;
+    int Ano;
 
     private static void Validar_cartão() {
 
@@ -27,11 +27,11 @@ public class Transportes {
         return Modelo;
     }
 
-    public Float getValor() {
+    public float getValor() {
         return Valor;
     }
 
-    public Int getAno() {
+    public int getAno() {
         return Ano;
     }
 
@@ -47,11 +47,11 @@ public class Transportes {
         Modelo = modelo;
     }
 
-    public void setValor(Float valor) {
+    public void setValor(float valor) {
         Valor = valor;
     }
 
-    public void setAno(Int ano) {
+    public void setAno(int ano) {
         Ano = ano;
     }
   
