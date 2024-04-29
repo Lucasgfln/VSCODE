@@ -1,3 +1,4 @@
+package FunçãoMétodos.Matriz;
 import java.util.Scanner;
 public class MatrizAtvd3_teste {
     public static void main(String[] args) {

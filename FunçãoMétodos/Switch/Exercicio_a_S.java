@@ -1,3 +1,4 @@
+package FunçãoMétodos.Switch;
 import java.util.Scanner;
 public class Exercicio_a_S {
     public static void main(String[] args){

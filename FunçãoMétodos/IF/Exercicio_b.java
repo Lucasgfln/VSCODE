@@ -1,3 +1,4 @@
+package FunçãoMétodos.IF;
 import java.util.Scanner;
 public class Exercicio_b{
     public static void main(String[] args){

@@ -1,3 +1,4 @@
+package FunçãoMétodos.Vetor;
 public class Atvd3 {
     public static void main(String[] args) {
         int n = 0, i, qNum_p =0;
