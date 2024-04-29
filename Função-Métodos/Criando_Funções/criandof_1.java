@@ -6,7 +6,7 @@ public class criandof_1 {
         System.out.print("Digite 1 para adição, 2 para subtração ou 3 para multiplicação): ");
         operador = ler.nextInt();
         if(operador<1 || operador > 3){
-            while (operador<1 || operador > 3) {
+            while (operador < 1 || operador > 3) {
                 System.out.print("Número inválido, Digite um Número válido: ");
                 operador = ler.nextInt();
             }
