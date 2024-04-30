@@ -31,7 +31,7 @@ public class Cartao_cred {
                 System.out.println("Bandeira do cartão é Visa");
                     break;
                 case 5:
-                    if (numero_cartao_int[1]>0 && numero_cartao_int[1]<6 ){
+                    if (numero_cartao_int[1] > 0 && numero_cartao_int[1] < 6 ){
                         System.out.println("Bandeira do cartão é Mastercard");
                     }
                     else{
