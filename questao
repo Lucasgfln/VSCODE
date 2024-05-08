@@ -1,0 +1,5 @@
+Faça um algoritmo em Java que pergunte valores reais para o preenchimento 
+de uma matriz a de 4 linhas e 5 colunas. 
+O programa deverá então gerar o vetor b de 5 posições, 
+onde cada posição do vetor b receberá o valor da soma de todos os valores 
+da coluna correspondente na matriz a. Exibir ao final a matriz a e o vetor b.
