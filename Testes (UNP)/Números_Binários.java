@@ -7,6 +7,7 @@ public class Números_Binários {
         for (i = 0; i < num.length; i++) {
                 System.out.print("Digite um número: ");
                 num[i] = ler.nextInt();
+                ler.close();
         }
         for (i = 0; i < num.length; i++) {
                 System.out.println(num[i]);

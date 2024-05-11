@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class criandof_1 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        int n1, n2, i, operador;
+        int n1, n2, operador;
         System.out.print("Digite 1 para adição, 2 para subtração ou 3 para multiplicação): ");
         operador = ler.nextInt();
         if(operador<1 || operador > 3){
@@ -32,6 +32,7 @@ public class criandof_1 {
             default:
                 break;
         }
+        ler.close();
     }
     public static int adição(int num1, int num2){
         int result = num1 + num2;
